@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 // Test route
 app.get('/', (req, res) => {
-  res.send('API is Running...');
+  res.send('API is Running in Github Actions');
 });
 
 app.listen(port, () => {
